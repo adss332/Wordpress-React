@@ -1,0 +1,232 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Description:  Twenty Twenty Child Theme
+ Author:       Zac Gordon
+ Author URI:   //javascriptforwp.com/
+ Template:     twentytwenty
+ Version:      0.9.0
+ License:      GNU General Public License v2 or later
+ License URI:  //www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  twentytwentychild
+*/
+
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+html {
+    font-size: 1rem;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px!important;
+}
+
+p,span,li,h3 {
+    font-family: 'Poppins', serif !important;
+}
+
+
+.courseCard {
+    box-shadow: 0px 11px 14px rgba(132, 132, 132, 0.15);
+    margin-bottom: 30px;
+}
+
+.infoCourse {
+    padding:15px;
+}
+
+.courseCampuses {
+    height: 45px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    background: #F5F5F5;
+}
+
+.infoCourse h3 {
+    font-size:20px;
+    line-height: 30px;
+}
+
+.courseCard img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+@media screen and (min-width:768px){
+    .ht700{
+        max-height:692px;
+    }
+    .ft27{
+        font-size: 27px;
+    }
+    .ft16{
+        font-size: 16px;
+    }
+    .pdr70{
+        padding-right: 70px!important;
+    }
+
+    .pdr20{
+        padding-right: 20px!important;
+    }
+
+    .container {
+        max-width: 1180px!important;
+    }
+}
+
+
+.pdt25 {
+    padding-top:25px;
+}
+
+.pdb25 {
+    padding-bottom:25px;
+}
+
+.content {
+    margin:50px 0px!important;
+}
+
+.zi2{
+    z-index:2;
+}
+
+.excerpt {
+    position: relative;
+    margin-bottom: 42px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:#F3EFED!important;
+    font-weight: 700!important;
+    color:#252B39!important;
+    box-shadow: none!important;
+}
+
+.accordion-body {
+    background: #FAF8F8;
+    margin-bottom: 15px;
+}
+
+.circleCampus {
+    position: relative;
+    height: 26px;
+    width: 26px;
+    background: #252B39;
+    color: white;
+    cursor:pointer;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.circleCampus:hover{
+    background: #02C48D;
+    color:black;
+}
+
+.accordion-button {
+    border:none!important;
+}
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%252B39'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
+}
+
+.accordion-button:focus {
+    box-shadow: none!important;
+}
+
+.accordion-item ul {
+    padding:0px;
+    margin-bottom: 0px;
+    list-style:none;
+    font-size:18px;
+}
+
+.accordion-item ul > li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.bdnone {
+    border:none!important;
+}
+
+.herosec .bgreen {
+    background:#04c48d!important;
+}
+
+.herosec img {
+    margin-left: -280px;
+    height: 692px;
+}
+
+.excerpt:before{
+    content: "";
+    background-image: url("/wp-content/uploads/2023/01/“.svg");
+    width: 54px !important;
+    height: 48px !important;
+    position: absolute;
+    background-size: contain;
+    left: -70px;
+    top: 10px;
+}
+
+.excerpt:after{
+    content: "";
+    background-image: url("/wp-content/uploads/2023/01/“.svg");
+    width: 35px !important;
+    height: 31px !important;
+    background-size: contain;
+    position: absolute;
+    transform: rotate(-180deg);
+    bottom: -2px;
+    margin-left: 10px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.herosec {
+    background:#04C48D;
+    color:#252B39;
+}
+

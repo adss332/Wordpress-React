@@ -1,0 +1,6 @@
+{
+  "require": {
+    "johnpbloch/wordpress": "*",
+    "stoutlogic/acf-builder": "^1.12"
+  }
+}

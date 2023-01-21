@@ -1,0 +1,10 @@
+#frontend node_modules
+/wp-content/themes/twentytwenty-child/node_modules/*
+/wp-content/themes/twentytwenty/node_modules/*
+
+#frontend node_modules
+/wp-content/themes/twentytwenty-child/build/*
+
+#custom plugin vendor
+/wp-content/plugins/course/vendor/*
+
