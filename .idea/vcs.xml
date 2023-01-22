@@ -12,5 +12,6 @@
     <mapping directory="$PROJECT_DIR$/wordpress1/wp-content/themes/my-custom-theme" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wordpress1/wp-content/themes/react-wordpress-theme" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/themes/my-custom-theme" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/themes/twentytwenty-child" vcs="Git" />
   </component>
 </project>
